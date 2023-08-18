@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	 <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="demo.css">
+    <link rel="stylesheet" href="jquery.flipster.min.css">
+    <script src="jquery.min.js"></script>
+    <script src="jquery.flipster.min.js"></script>
+	
+	
+	
+	
+	
+    <title>Ristorante Con Fusion</title>
+</head>
+
+<body>
+	<nav class="navbar navbar-dark navbar-expand-lg bg-dark fixed-top">
+        <div class="container">
+			
+           <a class="navbar-brand mr-auto" href="./index.html"><img src="images/logo/logo_empire.png" height="40" width="120"></a>
+		   <button class="navbar-toggler" type="button" data-toggle="offcanvas">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="navbar-collapse offcanvas-collapse justify-content-center" id="Navbar">
+                <ul class="navbar-nav nav-list mr-auto">
+					<li class="nav-item active"><a class="link-warning" href="index.html">Accueil</a></li>
+					<li class="nav-item "><a class="link-warning" href="./empire_entite.html">Entités</a></li>
+					<li class="nav-item"><a class="link-warning" href="./empire_actualite1.html">Actualités</a></li>
+					<li class="nav-item "><a class="link-warning" href="./empire_galerie.html">Galerie</a></li>
+					<li class="nav-item "><a class="link-warning" href="./aboutus.html">A propos</a></li>
+					<li class="nav-item"><a class="link-warning" href="./contactus.html">Contact</a></li>	
+                </ul> 
+				
+			</div>
+			
+        </div>
+    </nav>
+	
+    <header class ="jumbotron">
+		<div class="c1">
+		</div>
+		<div class="c2">
+		</div>
+        <div class ="container">
+            <div class ="row row-header">
+                <div class ="col-12 col-sm-6 tir" style="z-index:1">
+				
+                    <h1 class="">GROUPE EMPIRE</h1>
+                    <p>Le GROUPE EMPIRE est un Groupe panafricain qui évolue dans les secteurs du divertissement, de l’événementiel, de la Communication, des Night clubs, des salles de jeux, du Cinéma 12D, de la Restauration, des Nouvelles Technologies, de l’Hôtellerie, du Commerce , de la Représentation et autres. Nos activités principales se présentent comme suit.</p>
+                </div>
+                <div class ="col-12 col-sm-3 img-jomb align-self-center">
+					<img src="images/logo/logo_empire.png" class="img-fluid">
+                </div>
+				<div class="col-12 col-sm-3 align-self-center">
+					<a href="#" class="btn btn-outline-warning mt-3 btn-reser" id="myBtn" style="z-index:1" type="button">RESERVATION</a>
+					
+					
+				</div>
+            </div>
+        </div>
+    </header>
+	<div>
+		
+			<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-indicators">
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+				</div>
+				<div class="carousel-inner">
+					<div class="carousel-item  active">
+						<img src="images/logo/resto1.jpg" class="d-block w-100 img-fluid" alt="...">
+						
+							<div class="container">
+								<div class="carousel-caption d-none p-4 d-md-block text-start">
+									<h1>First slide label</h1>
+									<p>Some representative placeholder content for the first slide.</p>
+									<p><a href="#" class="btn btn-outline-warning" >content for the first slide.</a></p>
+								</div>
+							</div>
+					</div>
+					<div class="carousel-item">
+						<img src="images/logo/room1.jpg" class="d-block w-100" alt="...">
+						<div class="container">
+								<div class="carousel-caption d-none d-md-block">
+									<h1>First slide label</h1>
+									<p>Some representative placeholder content for the first slide.</p>
+									<p><a href="#" class="btn btn-outline-warning" >content for the first slide.</a></p>
+								</div>
+							</div>
+					</div>
+					<div class="carousel-item">
+						<img src="images/logo/concert1.jpg" class="d-block w-100" alt="...">
+						<div class="container">
+								<div class="carousel-caption d-none d-md-block text-end">
+									<h1>First slide label</h1>
+									<p>Some representative placeholder content for the first slide.</p>
+									<p><a href="#" class="btn btn-outline-warning" >content for the first slide.</a></p>
+								</div>
+						</div>
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>	
+			</div>
+			
+	</div>
+	
+	
+    <div class ="container ">
+		<!--<ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>-->
+		
+		<div class="row row-first">
+			<div class="titre">
+				<h1 class="text-center">Dernieres actualités du groupe empire
+				</h1>
+			</div>
+			<div class="col-md">
+
+      <!-- Card -->
+				  <div class="card mb-5 card-bac" data-tilt>
+					<div style="padding-top:10px; padding-left:10px; padding-right:10px;">
+					  <img src="images/logo/event1.jpg" class="img-fluid" style="border-radius:20px;" />
+					  <a href="#" class="stretched-link">
+						<div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+					  </a>
+					</div>
+					<div class="card-body">
+					  <h5 class="card-title">festival Internationaldes arts du benin(finab)</h5>
+					  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+						content.</p>
+					  
+					</div>
+				  </div>
+      <!-- Card -->
+
+			</div>
+    <!-- First column -->
+
+    <!-- Second column -->
+			<div class="col-md">
+
+			  <!-- Card -->
+			  <div class="card mb-5 card-bac" data-tilt>
+				<div style="padding-top:10px; padding-left:10px; padding-right:10px;">
+				  <img src="images/logo/event2.jpg" class="img-fluid" style="border-radius:20px;" />
+				  <a href="#" class="stretched-link btn" id="myBtn" type="button">
+					<div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+				  </a>
+				</div>
+				<div class="card-body">
+				  <h5 class="card-title">festival Internationaldes arts du benin(finab)</h5>
+				  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+					content.</p>
+				  
+				</div>
+			  </div>
+			  <!-- Card -->
+
+			</div>
+    <!-- Second column -->
+
+    <!-- Third column -->
+			<div class="col-md">
+
+			  <!-- Card -->
+			  <div class="card mb-5 card-bac" data-tilt>
+				<div style="padding-top:10px; padding-left:10px; padding-right:10px;">
+				  <img src="images/logo/event3.jpg" class="img-fluid" style="border-radius:20px;" />
+				  <a href="#" class="stretched-link">
+					<div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+				  </a>
+				</div>
+				<div class="card-body">
+				  <h5 class="card-title">festival Internationaldes arts du benin(finab)</h5>
+				  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+					content.</p>
+				  
+				</div>
+			  </div>
+			  <!-- Card -->
+
+			</div>
+		</div>	
+		
+		<div class="row row-second">
+			<div class="col-md">
+
+		  <!-- Card -->
+				  <div class="card mb-5 card-bac" data-tilt>
+					<div style="padding-top:10px; padding-left:10px; padding-right:10px;">
+					  <img src="images/logo/event10.png" class="img-fluid" style="border-radius:20px;" />
+					  <a href="#" class="stretched-link">
+						<div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+					  </a>
+					</div>
+					<div class="card-body">
+					  <h5 class="card-title">petites finale bbc 2022</h5>
+					  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+						content.</p>
+					  
+					</div>
+				  </div>
+		  <!-- Card -->
+			</div>
+		<!-- First column -->
+
+		<!-- Second column -->
+			<div class="col-md">
+
+				  <!-- Card -->
+				  <div class="card mb-5 card-bac" data-tilt>
+					<div style="padding-top:10px; padding-left:10px; padding-right:10px;">
+					  <img src="images/logo/event11.png" class="img-fluid" style="border-radius:20px;" />
+					  <a href="#" class="stretched-link">
+						<div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+					  </a>
+					</div>
+					<div class="card-body">
+					  <h5 class="card-title">preselection eya games</h5>
+					  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+						content.</p>
+					  
+					</div>
+				  </div>
+			  <!-- Card -->
+			</div>
+		<!-- Second column -->
+
+		<!-- Third column -->
+			<div class="col-md">
+
+				  <!-- Card -->
+				  <div class="card mb-5 card-bac" data-tilt>
+					<div style="padding-top:10px; padding-left:10px; padding-right:10px;">
+					  <img src="images/logo/event7.png" class="img-fluid" style="border-radius:20px;" />
+					  <a href="#" class="stretched-link">
+						<div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+					  </a>
+					</div>
+					<div class="card-body">
+					  <h5 class="card-title">preselection the voice kids afrique francophone</h5>
+					  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+						content.</p>
+					  
+					</div>
+				  </div>
+				  <!-- Card -->	
+			</div>
+		<!-- Third column -->
+		</div>
+		
+			
+			
+     
+		<!-- ***** Features Big Item Start ***** -->
+		<section class="section" id="subscribe">
+			
+				<div class="row row-content">
+					<div class="col-lg-8 offset-lg-2">
+						<div class="text-center">
+							<h6 style="margin-bottom:20px">Subscribe Newsletters</h6>
+							<h2 style="margin-bottom:20px">Don’t miss this chance!</h2>
+						</div>
+						<div class="subscribe-content">
+							<p>Vivamus suscipit blandit nibh, in cursus mi. Proin vel blandit metus, et auctor elit. Vivamus tincidunt tristique convallis. Ut nec odio vel arcu euismod semper nec ac sem.</p>
+							<div class="subscribe-form">
+								<form id="subscribe-now" action="" method="get">
+									<div class="row">
+										<div class="col-md-8 col-sm-12">
+										  <fieldset>
+											<input name="email" type="text" id="email" placeholder="Enter your email..." required="">
+										  </fieldset>
+										</div>
+										<div class="col-md-4 col-sm-12">
+										  <fieldset>
+											<button type="submit" id="form-submit" class="main-button">Subscribe</button>
+										  </fieldset>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+		
+		</section>
+		<!-- ***** Features Big Item End ***** -->
+		<div class=" row row-content">
+			<h2 class="text-size-50  text-m-size-40 text-center">Our Work</h2>
+			<hr class="break-small background-primary break-center">
+			
+			<div class="">
+				<div class="d-flex justify-content-center">
+					<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+					  <li class="nav-item" role="presentation">
+						<button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+					  </li>
+					  <li class="nav-item" role="presentation">
+						<button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
+					  </li>
+					  <li class="nav-item" role="presentation">
+						<button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
+					  </li>
+					  <li class="nav-item" role="presentation">
+						<button class="nav-link" id="pills-annee-tab" data-bs-toggle="pill" data-bs-target="#pills-annee" type="button" role="tab" aria-controls="pills-annee" aria-selected="false">Annee</button>
+					  </li>
+					</ul>
+				</div>
+				<div class="tab-content" id="pills-tabContent">
+					<div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+						<div class="row ">
+							<div class="col-12 col-md mb-3 zoom ">
+							<img src="images/logo/event4.jpeg" class="img-fluid" style="border-radius:5px;" />
+							
+							</div>
+							<div class="col-12 col-md mb-3 zoom">
+							<img src="images/logo/event7.jpeg" class="img-fluid" style="border-radius:5px;" />
+							</div>
+							<div class="col-12 col-md mb-3 zoom">
+							<img src="images/logo/event4.jpeg" class="img-fluid" style="border-radius:0px;" />
+							
+							</div>
+							<div class="col-12 col-md mb-3 zoom">
+							<img src="images/logo/event4.jpeg" class="img-fluid" style="border-radius:0px;" />
+							
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-12 col-md">
+							<img src="images/logo/event1.jpg" class="img-fluid" style="border-radius:20px;" />
+							
+							</div>
+							<div class="col-12 col-md">
+							<img src="images/logo/event1.jpg" class="img-fluid" style="border-radius:20px;" />
+							
+							</div>
+							<div class="col-12 col-md">
+							<img src="images/logo/event1.jpg" class="img-fluid" style="border-radius:20px;" />
+							
+							</div>
+							<div class="col-12 col-md">
+							<img src="images/logo/event1.jpg" class="img-fluid" style="border-radius:20px;" />
+							
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+						<div class="row">
+							<div class="col-12 col-md">
+							<img src="images/logo/event1.jpg" class="img-fluid" style="border-radius:20px;" />
+							
+							</div>
+							<div class="col-12 col-md">
+							<img src="images/logo/event1.jpg" class="img-fluid" style="border-radius:20px;" />
+							
+							</div>
+							<div class="col-12 col-md">
+							<img src="images/logo/event1.jpg" class="img-fluid" style="border-radius:20px;" />
+							
+							</div>
+							<div class="col-12 col-md">
+							<img src="images/logo/event1.jpg" class="img-fluid" style="border-radius:20px;" />
+							
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+						<div class="row">
+							<div class="col-12 col-md">
+							<img src="images/logo/event1.jpg" class="img-fluid" style="border-radius:20px;" />
+							
+							</div>
+							<div class="col-12 col-md">
+							<img src="images/logo/event1.jpg" class="img-fluid" style="border-radius:20px;" />
+							
+							</div>
+							<div class="col-12 col-md">
+							<img src="images/logo/event1.jpg" class="img-fluid" style="border-radius:20px;" />
+							
+							</div>
+							<div class="col-12 col-md">
+							<img src="images/logo/event1.jpg" class="img-fluid" style="border-radius:20px;" />
+							
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="pills-annee" role="tabpanel" aria-labelledby="pills-annee-tab">
+						<div class="row">
+							<div class="col-12 col-md">
+							<img src="images/logo/event1.jpg" class="img-fluid" style="border-radius:20px;" />
+							
+							</div>
+							<div class="col-12 col-md">
+							<img src="images/logo/event1.jpg" class="img-fluid" style="border-radius:20px;" />
+							
+							</div>
+							<div class="col-12 col-md">
+							<img src="images/logo/event1.jpg" class="img-fluid" style="border-radius:20px;" />
+							
+							</div>
+							<div class="col-12 col-md">
+							<img src="images/logo/event1.jpg" class="img-fluid" style="border-radius:20px;" />
+							
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		</div>
+		
+		<div class ="row row-content">
+			<div class=" titre">
+				<h1 class="text-center">qui sommes nous?
+				</h1>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+        <div class ="row row-contet align-items-center">
+			<div class=" titre">
+				<h1 class="text-center">les fondateurs
+				</h1>
+			</div>
+            <div class ="col-12 col-sm-4  col-md-3 d-flex align-items-center justify-content-center">
+                <img class=" mr-3 rounded-circle " width="270"  src="images/logo/adjovi.png" alt="Uthappizza">
+            </div>
+            <div class ="col col-sm col-md">
+				<div class="media">                                            
+                    <div class="media-body">
+                        <h2 class="mt-0 mb-1">Ulrich ADJOVI&nbsp;<span class="badge bg-warning">CO-FONDATEUR</span><br><hr style="width:100%"></h2>
+                        <p class="hidden-xs-down">Mon désir d’apporter ma pierre à l’édifice du développement de mon pays le Bénin et
+						du continent Africain, m’a conduit, en collaboration avec mes partenaires, à œuvrer pour la création d’emplois
+						pour la croissance économique. Ceci s’est matérialisé par l’implantation d’entreprises tant au Bénin que dans 
+						plusieurs autres pays Africains. Ce faisant, j’ambitionne d’une part, de redonner confiance à la jeunesse, de
+						réveiller le génie qui est en elle et de la responsabiliser en la mettant résolument au travail. Vous conviendrez
+						avec moi que la jeunesse est le fer de lance de tout développement économique. D’autre part, j’envisage, de rendre
+						compétitives nos entreprises tant au plan national, continental que mondial afin de les inscrire dans le concert des
+						nations. Ainsi, mes partenaires et moi, nous nous sommes évertués à doter le Bénin et l’Afrique, d’infrastructures
+						de divertissement et de loisirs, majestueuses. Nous mettons donc tout en œuvre pour assurer à notre clientèle, les
+						conditions idoines pour des instants détentes paisibles et agréables ; et à nos partenaires, une excellente réalisation de leur projet
+						</p>
+                    </div>
+                </div>               
+            </div>
+			
+        </div>
+		<div class ="row row-content align-items-center">
+			
+			
+            <div class ="col-12 col-sm-4  order-sm-last col-md-3 d-flex align-items-center justify-content-center">
+                <img class=" mr-3 rounded-circle align-self-center" width="270"  src="images/logo/sohad.png" alt="Uthappizza">
+            </div>
+            <div class ="col col-sm order-sm-first col-md">
+                <div class="media d-flex align-items-center">
+                              
+                    <div class="media-body">
+                        <h2 class="mt-0">Sohad BARBAR&nbsp;<span class="badge bg-warning">CO-FONDATEUR</span><br><hr style="width:100%"></h2>
+                        
+                        <p class="hidden-xs-down">La volonté d’assurer la satisfaction totale à nos clients et partenaires depuis
+						mon arrivée au Bénin et la création de notre Groupe, m’a conduit à travailler ardemment avec Ulrich ADJOVI,
+						jeune par son âge mais grand par l’étendue de la vision qu’il a de l’entreprenariat dans son pays, pour 
+						améliorer la qualité des services offerts par nos entreprises. De ce fait, deux raisons pour vous de 
+						nous préférer, d’une part le caractère exceptionnel et exquis des repas que nous vous offrons, l’aspect
+						fastueux et glamour des évènements que nous organisons avec professionnalisme, et les soirées riches en 
+						couleurs que nous voulons pour vous, inoubliables. Tout ceci sur des espaces soigneusement apprêtés et des
+						sites magnifiques, authentiques et raffinés. D’autres parts nous disposons d’une ressource humaine compétente,
+						méticuleusement choisie et immédiatement disponible pour vous offrir des services à nul autre pareil.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class ="row row-content align-items-center">
+            <div class ="col-12 col-sm-4 order-sm-last col-md-3">
+                <h3>Meet our Culinary Specialists</h3>
+            </div>
+            <div class ="col col-sm order-sm-first col-md">
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="images/alberto.png" alt="Alberto Somayya">          
+                    <div class="media-body">
+                        <h2 class="mt-0">Alberto Somayya</h2>
+                        <h4>Executive Chef</h4>
+                        <p class="hidden-xs-down">Award winning three-star Michelin chef with wide
+                            International experience having worked closely with
+                            whos-who in the culinary world, he specializes in
+                            creating mouthwatering Indo-Italian fusion experiences.
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+		<div class="row row-content d-flex align-items-center justify-content-center">
+			
+			<div id="myModal" class="modal justify-content-center align-items-center">
+
+				  <!-- Modal content -->
+				  <div class=" form-reser">
+					<div class="close  d-flex align-items-center justify-content-center ">
+										<a href=""><i class="fa fa-times"aria-hidden="true"></i></a>
+									</div>
+
+										<div class="text-center p-1 mt-1">
+											<img src="images/logo/logo_empire.png" height="40" width="120">
+										</div>
+										<form >
+										  <div class="form-group row">
+											<div class="col-12 col-md ">
+											<label for="inputEmail4" class="text">Email</label>
+											  <input type="text" class="form-control input-box" placeholder="First name">
+											</div>
+											<div class="col-12 col-md ">
+											<label for="inputEmail4">Email</label>
+											  <input type="text" class="form-control input-box" placeholder="Last name">
+											</div>
+										  </div>
+										  <div class="row d-flex align-items-center justify-content-center">
+											<div class="col-12 col-md ">
+											<label for="inputEmail4">Email</label>
+											  <input type="text" class="form-control input-box" placeholder="First name">
+											</div>
+											<div class="col-12 col-md ">
+											<label for="inputEmail4">Email</label>
+											  <input type="text" class="form-control input-box" placeholder="Last name">
+											</div>
+										  </div>
+										  <div class="row d-flex align-items-center justify-content-center">
+											<div class="col-12 col-md">
+											<label for="inputEmail4">Email</label>
+											  <input type="text" class="form-control input-box" placeholder="First name">
+											</div>
+											<div class="col-12 col-md">
+											<label for="inputEmail4">Email</label>
+											  <input type="text" class="form-control input-box" placeholder="Last name">
+											</div>
+										  </div>
+										  <div class="row d-flex align-items-center justify-content-center">
+											  <div class="">
+											  <label for="feedback" class="text">Your feedback</label>
+												<textarea class="form-control input-bo" id="Feedback" name="feedback" rows="5"></textarea>
+											</div><br>
+											<div class="row d-flex align-items-center justify-content-center">
+										<button type="submit" >RESERVE</button>
+										</div>
+										</div>
+										
+										
+										</form>
+										
+										
+									
+					
+				  </div>
+
+				</div>			
+ 
+		</div>
+		<!--<div class="row row-content">
+			<article id="demo-default" class="demo">
+
+				<div id="coverflow">
+					<ul class="flip-items">
+						<li data-flip-title="Red">
+							<img src="images/logo/4.webp">
+						</li>
+						<li data-flip-title="Razzmatazz" data-flip-category="Purples">
+							<img src="images/logo/3.webp">
+						 </li>
+						<li data-flip-title="Deep Lilac" data-flip-category="Purples">
+							<img src="img/text3.gif">
+						</li>
+						<li data-flip-title="Daisy Bush" data-flip-category="Purples">
+							<img src="img/text4.gif">
+						</li>
+						<li data-flip-title="Cerulean Blue" data-flip-category="Blues">
+							<img src="img/text5.gif">
+						</li>
+						<li data-flip-title="Dodger Blue" data-flip-category="Blues">
+							<img src="img/text6.gif">
+						</li>
+						<li data-flip-title="Cyan" data-flip-category="Blues">
+							<img src="img/text7.gif">
+						</li>
+						<li data-flip-title="Robin's Egg" data-flip-category="Blues">
+							<img src="img/text8.gif">
+						</li>
+						<li data-flip-title="Deep Sea" data-flip-category="Greens">
+							<img src="img/text9.gif">
+						</li>
+						<li data-flip-title="Apple" data-flip-category="Greens">
+							<img src="img/text10.gif">
+						</li>
+						<li data-flip-title="Apple" data-flip-category="Greens">
+							<img src="img/text10.gif">
+						</li>
+					</ul>
+				</div>
+
+				<script>
+					var coverflow = $("#coverflow").flipster();
+				</script>
+			</article>
+		</div>-->
+		
+
+	</div>
+
+    
+	
+	
+	<footer class="text-center  footer-bg ">
+		<section class="d-flex justify-content-center align-items-center  p-2 border-bottom">
+			
+
+			<!-- Right -->
+			<div class="icon-media align-items-center  p-2">
+				<a href="" class="me-4 text-reset btn btn-warning btn-floating mx-1 rounded-circle">
+					<i class="fa fa-facebook"></i>
+				</a>
+				<a href="" class="me-4 text-reset btn btn-warning btn-floating mx-1 rounded-circle">
+					<i class="fa fa-twitter"></i>
+				</a>
+				<a href="" class="me-4 text-reset btn btn-warning btn-floating mx-1 rounded-circle">
+					<i class="fa fa-google"></i>
+				</a>
+				<a href="" class="me-4 text-reset btn btn-warning btn-floating mx-1 rounded-circle">
+					<i class="fa fa-instagram"></i>
+				</a>
+				<a href="" class="me-4 text-reset btn btn-warning btn-floating mx-1 rounded-circle">
+					<i class="fa fa-linkedin"></i>
+				</a>
+				<a href="" class="me-4 text-reset btn btn-warning btn-floating mx-1 rounded-circle">
+					<i class="fa fa-youtube"></i>
+				</a>
+				
+			</div>
+			<!-- Right -->
+		</section>
+		<!-- Section: Social media -->
+		
+
+		<!-- Section: Links  -->
+		<section class="">
+			<div class="container text-center text-md-start mt-5">
+			    <!-- Grid row -->
+				<div class="row mt-3">
+					<!-- Grid column -->
+					<div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+						<!-- Content -->
+						
+						<img src="images/logo/logo_empire.png" class="img-fluid">
+						
+					</div>
+					<!-- Grid column -->
+
+					<!-- Grid column -->
+					<div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+					  <!-- Links -->
+						<h6 class="text-uppercase fw-bold mb-4"style="color:#ff8c00;">
+							Products
+						</h6>
+						<p>
+							<a href="#!" class="text-reset">Angular</a>
+						</p>
+						<p>
+							<a href="#!" class="text-reset">React</a>
+						</p>
+						<p>
+							<a href="#!" class="text-reset">Vue</a>
+						</p>
+						<p>
+							<a href="#!" class="text-reset">Laravel</a>
+						</p>
+					</div>
+					<!-- Grid column -->
+
+					<!-- Grid column -->
+					<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+					  <!-- Links -->
+					  <h6 class="text-uppercase fw-bold mb-4" style="color:#ff8c00;">
+						Useful links
+					  </h6>
+					  <p>
+						<a href="#!" class="text-reset">Pricing</a>
+					  </p>
+					  <p>
+						<a href="#!" class="text-reset">Settings</a>
+					  </p>
+					  <p>
+						<a href="#!" class="text-reset">Orders</a>
+					  </p>
+					  <p>
+						<a href="#!" class="text-reset">Help</a>
+					  </p>
+					</div>
+					<!-- Grid column -->
+
+					<!-- Grid column -->
+					<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+					  <!-- Links -->
+					  <h6 class="text-uppercase fw-bold mb-4" style="color:#ff8c00;">Contact</h6>
+					  <p><i class="fa fa-map-marker me-3"></i> Haie Vive ,Cotonou,Benin</p>
+					  <p>
+						<i class="fa fa-envelope me-3"></i>
+						info@example.com
+					  </p>
+					  <p><i class="fa fa-phone me-3"></i> + 01 234 567 88</p>
+					  <p><i class="fa fa-print me-3"></i> + 01 234 567 89</p>
+					</div>
+					<!-- Grid column -->
+					</div>
+			  <!-- Grid row -->
+			</div>
+		</section>
+		  <!-- Section: Links  -->
+		<!-- Section: Social media -->
+		
+
+		  <!-- Copyright -->
+		<div class="text-center p-4" style="background-color:#ff8c00;color:black;"">
+			© 2021 Copyright:
+			<a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+		</div>
+		  <!-- Copyright -->
+	</footer>
+<!-- Footer -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="node_modules/bootstrap/dist/js/bootstap.js"></script>
+	<script src="vanilla-tilt.js"></script>
+	<script src="cache-affiche.js" async></script>
+	
+	<script src="scrollreveal.min.js"></script>
+	
+
+      
+    <script src="offcanvas.js"></script>
+	<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+		
+	
+
+	
+
+</body>
+
+</html>
